@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Routiner</title>
+</head>
+<body>
+    <header>
+        <h1>Routiner</h1>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+            <div id="progressPercentage">0%</div>
+        </div>
+    </header>
+    
+    <main id="mainContent">
+        <!-- Routine Page -->
+        <div id="routinePage" class="page active">
+            <h2>Morning Routine</h2>
+            <div class="category">
+                <button class="habit">Skin Care Routine</button>
+                <button class="habit">Nube</button>
+                <button class="habit">Morning Run</button>
+                <button class="habit">No phone</button>
+            </div>
+            <h2>Health</h2>
+            <div class="category">
+                <button class="habit">Sport</button>
+                <button class="habit">No sugar</button>
+                <button class="habit">Water</button>
+            </div>
+            <h2>Growth</h2>
+            <div class="category">
+                <button class="habit">Pray/Meditation</button>
+                <button class="habit">Read</button>
+                <button class="habit">Invest</button>
+            </div>
+        </div>
+
+        <!-- Stats Page -->
+        <div id="statsPage" class="page">
+            <h2>Track Your Habits</h2>
+            <div id="charts">
+                <!-- Placeholder for charts -->
+                <p>Graphs will be displayed here for daily, weekly, and monthly tracking.</p>
+            </div>
+        </div>
+
+        <!-- Profile Page -->
+        <div id="profilePage" class="page">
+            <h2>Your Profile</h2>
+            <p>Name: John Doe</p>
+            <p>Email: john.doe@example.com</p>
+            <!-- Add more profile details as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <button id="routineBtn" class="nav-button active">Routine</button>
+        <button id="statsBtn" class="nav-button">Stats</button>
+        <button id="profileBtn" class="nav-button">Profile</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
